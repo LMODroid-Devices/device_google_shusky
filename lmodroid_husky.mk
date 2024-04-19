@@ -6,18 +6,18 @@
 
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/shusky/aosp_husky.mk)
-$(call inherit-product, device/google/zuma/lineage_common.mk)
+$(call inherit-product, device/google/zuma/lmodroid_common.mk)
 
 include device/google/shusky/husky/device-lineage.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8 Pro
-PRODUCT_NAME := lineage_husky
+PRODUCT_NAME := lmodroid_husky
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2992

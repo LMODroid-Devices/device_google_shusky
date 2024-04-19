@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "LMODroid-Devices/device_google_zuma",
+    "target_path": "device/google/zuma"
+  },
+  {
+    "remote": "lineage",
+    "repository": "device/google/shusky-kernel",
+    "target_path": "device/google/shusky-kernel"
+  }
+]

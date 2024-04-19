@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PACKAGE_OVERLAYS += device/google/shusky/shiba/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/shusky/shiba/overlay-lmodroid
 
 TARGET_VENDOR_PROP += device/google/shusky/shiba/vendor.prop
 
