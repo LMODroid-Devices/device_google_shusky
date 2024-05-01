@@ -4,7 +4,7 @@
     "target_path": "device/google/zuma"
   },
   {
-    "remote": "lineage",
+    "remote": "aosp-shusky",
     "repository": "device/google/shusky-kernel",
     "target_path": "device/google/shusky-kernel"
   }
